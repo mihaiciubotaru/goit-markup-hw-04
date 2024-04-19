@@ -76,6 +76,12 @@
     padding-left: 100px;
     padding-right: 100px;
     height: 80px;
+    background-color: #ececec;
+  }
+
+  .bottom-menu {
+    color: #ffffff;
+    background-color: #2f303a;
   }
 
   .top-menu__links {
@@ -124,6 +130,7 @@
   .portfolio__main__top_button:hover {
     background-color:  var(--color-active);
     color: white;
+    cursor: pointer;
   }
 
   .portfolio__main__top_buttons {
