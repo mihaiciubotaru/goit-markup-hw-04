@@ -18,7 +18,14 @@
                         </nav>
                     </div>
                     <div class="top-menu__contacts">
-                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>&nbsp;&nbsp;&nbsp;<a href="tel:+12127724150">+1 212-772-4150</a>
+                        <svg class="email_envelope">
+                            <use href="./images/icons.svg#envelope" />
+                        </svg>
+                        &nbsp;<a href="mailto:info@devstudio.com">info@devstudio.com</a>&nbsp;&nbsp;&nbsp;
+                        <svg class="email_envelope">
+                            <use href="./images/icons.svg#smartphone" />
+                        </svg>
+                        &nbsp;<a href="tel:+12127724150">+1 212-772-4150</a>
                     </div>
                 </div>
             </div>
@@ -27,40 +34,52 @@
             <div class="container">
                 <!-- main button section  -->
                 <section class="main_title">
+                    <div style="text-align: center;">
                     <h2>EFFECTIVE SOLUTIONS FOR<br>
                         YOUR BUSINESS<br>
                         <button type="button" class="main__button">Request our service</button>
                     </h2>
+                    </div>
                 </section>
 
                 <!-- presentation section -->
                 <section class="index__main__presentation">
-                    <ul class="main__ul">
-                        <li style="list-style-type: none;">
-                            <h4>
-                                <b>ATTENTION TO DETAILS</b><br>
-                                We go into all the details and processes of your business to develop a customized solution.
-                            </h4>
-                        </li>
-                        <li style="list-style-type: none;">
-                            <h4>
-                                <b>PUNCTUALITY</b><br>
-                                With us, you can feel safe and secure. An important principle of the company: respect your time and deadlines.
-                            </h4>
-                        </li>
-                        <li style="list-style-type: none;">
-                            <h4>
-                                <b>PLANNING</b><br>
-                                You will be able to observe and participate in every phase of solution development and implementation.
-                            </h4>
-                        </li>
-                        <li style="list-style-type: none;">
-                            <h4>
-                                <b>MODERN TECHNOLOGIES</b><br>
-                                We use innovative tools to solve assigned tasks. It's time to simplify work processes.
-                            </h4>
-                        </li>
-                    </ul>
+                    <div class="index__main__presentation_module">
+                        <svg class="antenna">
+                            <use href="./images/icons.svg#antenna" />
+                        </svg>
+                        <h4>
+                            <b>ATTENTION TO DETAILS</b><br>
+                            We go into all the details and processes of your business to develop a customized solution.
+                        </h4>
+                    </div>
+                    <div class="index__main__presentation_module">
+                        <svg class="antenna">
+                            <use href="./images/icons.svg#clock" />
+                        </svg>
+                        <h4>
+                            <b>PUNCTUALITY</b><br>
+                            With us, you can feel safe and secure. An important principle of the company: respect your time and deadlines.
+                        </h4>
+                    </div>
+                    <div class="index__main__presentation_module">
+                        <svg class="antenna">
+                            <use href="./images/icons.svg#line_on_monitor" />
+                        </svg>
+                        <h4>
+                            <b>PLANNING</b><br>
+                            You will be able to observe and participate in every phase of solution development and implementation.
+                        </h4>
+                    </div>
+                    <div class="index__main__presentation_module">
+                        <svg class="antenna">
+                            <use href="./images/icons.svg#astronaut" />
+                        </svg>
+                        <h4>
+                            <b>MODERN TECHNOLOGIES</b><br>
+                            We use innovative tools to solve assigned tasks. It's time to simplify work processes.
+                        </h4>
+                    </div>
                 </section>
 
                 <!-- tech images section -->
@@ -105,8 +124,30 @@
                                 <b>Cristopher Walker</b><br>
                                 Product Designer
                             </div>
+                            <div class="index__social-bar">
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#instagram" />
+                                    </svg>
+                                </div>
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#twitter" />
+                                    </svg>
+                                </div>
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#facebook" />
+                                    </svg>
+                                </div>
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#linkedin" />
+                                    </svg>
+                                </div>
+                            </div>
                         </li>
-                        <li style="list-style-type: none;">
+                        <li style="list-style-type: none;" class="index__main__team__ul__li">
                             <img 
                                 src="./images/face_2_kylie_evans_w270.jpg"
                                 alt="Kylie Evans"
@@ -116,8 +157,30 @@
                                 <b>Kylie Evans</b><br>
                                 Frontend Developer
                             </div>
+                            <div class="index__social-bar">
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#instagram" />
+                                    </svg>
+                                </div>
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#twitter" />
+                                    </svg>
+                                </div>
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#facebook" />
+                                    </svg>
+                                </div>
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#linkedin" />
+                                    </svg>
+                                </div>
+                            </div>
                         </li>
-                        <li style="list-style-type: none;">
+                        <li style="list-style-type: none;" class="index__main__team__ul__li">
                             <img 
                                 src="./images/face_3_ryan_harris_w270.jpg"
                                 alt="Ryan Harris"
@@ -127,8 +190,30 @@
                                 <b>Ryan Harris</b><br>
                                 Marketing
                             </div>
+                            <div class="index__social-bar">
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#instagram" />
+                                    </svg>
+                                </div>
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#twitter" />
+                                    </svg>
+                                </div>
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#facebook" />
+                                    </svg>
+                                </div>
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#linkedin" />
+                                    </svg>
+                                </div>
+                            </div>
                         </li>
-                        <li style="list-style-type: none;">
+                        <li style="list-style-type: none;" class="index__main__team__ul__li">
                             <img 
                                 src="./images/face_4_tyler_moore_w270.jpg"
                                 alt="Tyler Moore"
@@ -138,18 +223,95 @@
                                 <b>Tyler Moore</b><br>
                                 UI Designer
                             </div>
+                            <div class="index__social-bar">
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#instagram" />
+                                    </svg>
+                                </div>
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#twitter" />
+                                    </svg>
+                                </div>
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#facebook" />
+                                    </svg>
+                                </div>
+                                <div class="index__social-box">
+                                    <svg class="index__social-network">
+                                        <use href="./images/icons.svg#linkedin" />
+                                    </svg>
+                                </div>
+                            </div>
                         </li>
                     </ul>
+                </section>
+                <!-- customers section -->
+                <section>
+                    <div style="width: 100%;">
+                        <h2 style="text-align: center;">Regular customers</h2><br>
+                    </div>
+                    <div class="index__main__customers-icons">
+                        <svg class="index__main__customer-icon">
+                            <use href="./images/icons.svg#logo-index-client-1" />
+                        </svg>
+                        <svg class="index__main__customer-icon">
+                            <use href="./images/icons.svg#logo-index-client-2" />
+                        </svg>
+                        <svg class="index__main__customer-icon">
+                            <use href="./images/icons.svg#logo-index-client-3" />
+                        </svg>
+                        <svg class="index__main__customer-icon">
+                            <use href="./images/icons.svg#logo-index-client-4" />
+                        </svg>
+                        <svg class="index__main__customer-icon">
+                            <use href="./images/icons.svg#logo-index-client-5" />
+                        </svg>
+                        <svg class="index__main__customer-icon">
+                            <use href="./images/icons.svg#logo-index-client-6" />
+                        </svg>
+                        
+                    </div>
                 </section>
             </div>
         </main>
         <!-- footer section -->
         <footer>
-            <div class="container">
-                <div class="top-menu__webstudio"><span style="color: #2196f3;">Web</span>Studio</div>
-                695 Park Ave, NY 10065, USA<br>
-                info@devstudio.com<br>
-                +1 212-772-4150
+            <div class="index__footer">
+                <div>
+                    <div class="top-menu__webstudio"><span style="color: #2196f3;">Web</span>Studio</div><br>
+                    695 Park Ave, NY 10065, USA<br>
+                    info@devstudio.com<br>
+                    +1 212-772-4150
+                </div>
+                <div class="top-menu__webstudio">
+                    <span style="font-size: 14px; line-height: 16.41px; padding-bottom: 22px;">Find us on</span>
+                    <div class="index__social-bar">
+                        <div class="index__social-box-bis">
+                            <svg class="index__social-network">
+                                <use href="./images/icons.svg#instagram-white" />
+                            </svg>
+                        </div>
+                        <div class="index__social-box-bis">
+                            <svg class="index__social-network">
+                                <use href="./images/icons.svg#twitter-white" />
+                            </svg>
+                        </div>
+                        <div class="index__social-box-bis">
+                            <svg class="index__social-network">
+                                <use href="./images/icons.svg#facebook-white" />
+                            </svg>
+                        </div>
+                        <div class="index__social-box-bis">
+                            <svg class="index__social-network">
+                                <use href="./images/icons.svg#linkedin-white" />
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </footer>
     </body>
