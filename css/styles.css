@@ -3,10 +3,18 @@
     --body-font-size: "14px";    
     
     --color-active: #2196f3;
+    --color-not_active: #212121;
+  }
+
+  html {
+    display: flex;
+    justify-content: center;
   }
   
   body {
     font-family: var(--body-font);
+    display: flex;
+    flex-direction: column;
   }
 
   h2 {
@@ -27,6 +35,9 @@
 
   .container {
     width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .main_title {
@@ -43,31 +54,34 @@
   .index__main__presentation {
     width: 1200px;
     display: flex;
-    justify-content: space-evenly;
-    flex-shrink: 0;
+    justify-content: center;
   }
 
   .index__main__presentation_module {
-    width: 270px;
-    height: 251px;
+    width: 290px;
     margin-left: 0px;
     margin-right: 0px;
     flex-shrink: 0;
   }
 
   .index__main__images__ul {
-    width: 1170px;
+    padding: 0px;
+    width: 1200px;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 8px;
   }
 
   .index__main__team {
     background-color: #f5f4fa;
+    display: flex;
+    flex-direction: column;
   }
 
   .index__main__team__ul {
-    width: 1170px;
-    height: 368px;;
+    width: 1200px;
+    height: 368px;
+    padding: 0px;
     display:flex;
     justify-content: center;
     gap: 22px;
@@ -171,6 +185,21 @@
     display: flex;
     font-size: 14px;
   }
+  .top-menu__contacts a {
+    color: #212121;
+  }
+  .top-menu__contacts a:hover {
+    color: var(--color-active);
+  }
+  .top-menu__contacts svg {
+    stroke: #212121;
+  }
+  .top-menu__contacts:has(#id_mail:hover) #id_envelope {
+    stroke: var(--color-active);
+  }
+  .top-menu__contacts:has(#id_phone_number:hover) #id_smartphone {
+    stroke: var(--color-active);
+  }
 
   .main__button {
     width: 161;
@@ -191,11 +220,15 @@
     height: 12px;
     vertical-align: middle;
     padding-top: 3px;
+    stroke: black;
+  }
+  .email_envelope:hover {
+    stroke: var(--color-active);
   }
 
   .antenna {
-    width: 270;
-    height: 120;
+    width: 280;
+    /* height: 120; */
   }
 
   .portfolio__main__top_button {
