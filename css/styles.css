@@ -89,10 +89,10 @@
 
   .index__main__team__ul__li {
     text-align: center;
-    border-width: 3px;
+    border-width: 2px;
     width: 270px;
     height: 350px;
-    box-shadow: 1px 1px 5px 2px #e3e3e6;
+    box-shadow: 1px 1px 2px 2px #b4b4b8;
   }
 
   .index__main__customers {
@@ -108,11 +108,14 @@
   .index__main__customers-icons {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
   }
 
   .index__main__customer-icon {
     width: 170px;
     height: 92px;
+    border:1px solid black;
+    border-radius: 4px;
   }
 
   .top-menu {
@@ -138,15 +141,16 @@
     height: 20px;
     padding-top: 12px;
   }
-  .index__social-network:hover {
+  /* .index__social-network:hover {
     stroke: #ffffff;
     fill: #ffffff;
-  }
+  } */
   .index__social-box {
     width: 44px;
     height: 44px;
     text-align: center;
-    border-radius: 22px;
+    border-color: #212121;
+    border-width: 2px;
   }
   .index__social-box:hover {
     background-color:#2196f3;
